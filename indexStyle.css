@@ -1,0 +1,130 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navBar {
+    background-color: black;
+    width: 100vw;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.navBar ul {
+    padding-top: 45px;
+}
+
+
+.searchBox {
+    float: right;
+    height: 19px;
+    padding-top: 2px;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.cartIcon {
+    background-color: white;
+    border-radius: 1.5px;
+    height: 20px;
+    padding: 5px 0px;
+}
+
+.navBar li,
+.navBar input {
+    list-style-type: none;
+    float: left;
+    color: dimgray;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+    float: right;
+}
+
+a {
+    color: whitesmoke;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+.searchbtn {
+    height: 15px;
+    width: 15px;
+    margin: 4px 2px 4px 0px;
+    padding: 4px 2px 2px 0px;
+    float: right;
+}
+
+/* End navBar styling */
+
+
+
+.photoContainer {
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    margin: 18px 15px 18px 15px;
+
+}
+
+.photoRoll {
+    width: 300px;
+    height: 400px;
+    border: 1px black solid;
+}
+
+/* end photoContainer styling */
+
+.openMessage {
+    display: flexbox;
+    margin: 5px;
+    padding: 5px;
+}
+
+.openMessage h1 {
+    padding: 15px 15px 5px 5px;
+}
+
+.openMessage p {
+    font-size: large;
+}
+
+/* banner styling */
+
+.banner {
+    width: 100vw;
+}
+
+/* footer styling */
+
+.bottomNav {
+    background-color: wheat;
+    display: inline-flex;
+    width: 100vw;
+}
+
+.bottomNav ul {
+
+    display: inline-flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100vw;
+    background-color: black;
+    color: whitesmoke;
+
+
+}

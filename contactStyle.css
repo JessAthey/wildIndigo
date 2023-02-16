@@ -1,0 +1,209 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100%;
+    
+}
+
+.container {
+    height: 100%;
+    position: relative;
+}
+
+.navBar {
+    background-color: black;
+    width: 100vw;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.navBar ul {
+    padding-top: 45px;
+}
+
+
+.searchBox {
+    float: right;
+    height: 30px;
+    padding-top: 2px;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.cartIcon {
+    background-color: white;
+    border-radius: 1.5px;
+    height: 25px;
+    width: 30px;
+    padding: 0;
+}
+
+.navBar li,
+.navBar input {
+    list-style-type: none;
+    float: left;
+    color: dimgray;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+    float: right;
+}
+
+a {
+    color: whitesmoke;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+.searchbtn {
+    height: 19px;
+    width: 20px;
+    margin: 4px 2px 4px 0px;
+    padding: 4px 2px 2px 0px;
+    
+}
+
+h1 {
+    margin: 10px 5px 10px 10px;
+}
+
+/* End navBar styling */
+
+
+/* Gallery styling */
+
+
+
+.wrapper {
+    position: relative;
+}
+
+.mySlides {
+    display: none;
+    max-width: 90vw;
+    max-height: 90vw;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numberText {
+    color: f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.caption-container {
+    text-align: center;
+    background-color: 000;
+    padding: 2px 16px;
+    color: grey;
+}
+
+
+.dyedFabric {
+    height: 60vw;
+    width: 100vw;
+}
+
+.indigoThread {
+
+height: 60vw;
+width: 100vw;
+}
+
+.variousDyes {
+    height: 60vw;
+    width: 100vw;
+}
+
+.patchJeans {
+    height: 66vw;
+    width: 100vw;
+}
+
+.row {
+    height: 15vw;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+
+/* footer styling */
+
+.bottomNav {
+    display: inline-flex;
+    position: absolute;
+    margin-top: 100px;
+}
+
+.bottomNav ul {
+    
+    min-height: 5vh;
+    display: inline-flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 25px 10px 5px 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100vw;
+    height: 45px;
+    background-color: black;
+    color: whitesmoke;
+    position: absolute;
+
+}
+
